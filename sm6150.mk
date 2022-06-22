@@ -412,6 +412,10 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
     hardware/google/pixel
 
+# Platform
+PRODUCT_BOARD_PLATFORM := sm6150
+PRODUCT_USES_QCOM_HARDWARE := true
+
 # QMI
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect \
